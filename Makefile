@@ -4,8 +4,8 @@ serve: responsive_portfolio_assets/external/masonry.pkgd.min.js
 deploy:
 	git commit -a && \
 	git push && \
-	ssh dreamhost \
-		'cd calaldees.dreamhosters.com/responsive_portfolio && git pull'
+	ssh margay \
+		'cd ~/www/www.calaldees.uk/ && git pull'
 
 responsive_portfolio_assets/external/masonry.pkgd.min.js:
 	cd responsive_portfolio_assets/external/ ; ./get_externals.sh
