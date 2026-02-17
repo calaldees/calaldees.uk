@@ -79,6 +79,8 @@ LOOKUP_ICON_LINKS = {
     'github_superlimitbreak': 'https://github.com/superLimitBreak',
     'appium': 'http://appium.io/',
     'docker': 'https://www.docker.com/',
+    'csharp': 'https://learn.microsoft.com/en-us/dotnet/csharp/',
+    'hugo'  : 'https://gohugo.io/',
 };
 
 LOOKUP_TEAM = {
@@ -137,12 +139,58 @@ LOOKUP_TEAM = {
     'delphine': {
         'name': 'Delphine Martin',
         'website': '',
-    }
+    },
+    'dale': {
+        'name': 'Dale Johnson',
+        'website': 'https://www.mrjohnsoncomputing.co.uk/',
+    },
 }
 
 
 build_masonry(
 [
+    {
+        'title':'ComputingTeachers.uk',
+        'link': 'https://www.ComputingTeachers.uk',
+        'image': 'projects/computingteachers.logo.svg',
+        'description': "A blog site for a community of teachers to share ideas and resources for teaching Computing. A publication channel for many of my computing education ideas",
+        'description_extended': "",
+        'year': '2026',
+        'team': [],
+        'icons': [],
+        'category': 'other',
+        'width': 3,
+        'height': 1,
+        'extra_class': 'horizontal',
+    },
+
+    {
+        'title':'Language Reference',
+        'link': 'https://computingteachers.github.io/language_reference/#py,cs',
+        //'image': '',
+        'description': "Dynamic language reference sheet for multiple languages",
+        'description_extended': "",
+        'year': '2008-2026',
+        'team': [],
+        'icons': ['python','java','php','html5','csharp','github'],
+        'category': 'code',
+        'width': 1,
+        'height': 1,
+    },
+
+    {
+        'title':'AQA Psudocode Interpreter',
+        'link': 'https://github.com/ComputingTeachers/AQAPseudoCodeInterpreter',
+        //'image': '',
+        'description': "Following the 'Crafting Interpreters' book. Attempt to make a working language out of AQA Psudocode specification",
+        'description_extended': "",
+        'year': '2025-2026',
+        'team': [],
+        'icons': ['python',],
+        'category': 'code',
+        'width': 1,
+        'height': 1,
+    },
     {
         'title':'incredibleBulkAPI',
         'link': 'https://calaldees.github.io/incredibleBulkAPI/',
@@ -285,18 +333,6 @@ build_masonry(
     },
 
     {
-        'title':'ComputingTeachers.uk',
-        'link': 'https://computingteachers.uk/',
-        'image': '',
-        'description': "Considering the concept of a community of Computing teachers that collaborate on resources using Git.",
-        'year': '2021-present',
-        'icons': [],
-        'category': 'other',
-        'width': 1,
-        'height': 1,
-    },
-
-    {
         'title':'mame-7z',
         'link': 'https://github.com/calaldees/mame-7z',
         'image': '',
@@ -354,26 +390,12 @@ build_masonry(
         'description': "Learn to program through projects. Projects in HTML5/Javascript, Python, Java, VB.NET, C# and PHP. Teaching resources and activities.",
         'description_extended': "",
         'year':'2012-present',
-        'icons': ['python','java','vb','php','html5','c#','github'],
+        'icons': ['python','java','vb','php','html5','csharp','github'],
         'category': 'code',
         'width': 3,
         'height': 1,
         'extra_class': 'horizontal',
     },
-
-    {
-        'title':'Language Cheat Sheet (dynamic)',
-        'link': 'https://computingteachers.uk/static/langauge_reference.html#py',
-        'image': '',
-        'description': "A learning tool. Printable dynamic reference to compared core language concepts between programming languages",
-        'description_extended': "",
-        'year':'2012-present',
-        'icons': ['python','java','vb','php','html5','c#','github'],
-        'category': 'code',
-        'width': 2,
-        'height': 1,
-    },
-
 
     {
         'title':'Map of Computing',
@@ -834,7 +856,7 @@ build_masonry(
 
     {
         'title':'CAS Conference Speaker',
-        'link': 'http://www.computingatschool.org.uk/index.php?id=conf2010',
+        'link': 'https://web.archive.org/web/20130509183646/http://computingatschool.org.uk/data/uploads/newsletter-autumn-2010.pdf',
         'image': 'projects/cas_image.jpg',
         'description': "Spoke at the national 'Computing at School' conference about innovative ways to teach programming",
         'year':'2010',
