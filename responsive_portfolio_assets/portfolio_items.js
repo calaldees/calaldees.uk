@@ -150,10 +150,38 @@ LOOKUP_TEAM = {
 build_masonry(
 [
     {
+        'title':'Coding - Private Tuition',
+        'link': '',
+        //'image': '',
+        'description': "Supporting young people weekley with coding tuition",
+        'description_extended': "",
+        'year': '2026-now',
+        'team': [],
+        'icons': [],
+        'category': 'employer',
+        'width': 1,
+        'height': 1,
+    },
+
+    {
+        'title':'Mini Static Site Generator',
+        'link': 'https://github.com/calaldees/staticSiteGenerator',
+        //'image': '',
+        'description': "Didn't like the static site generators I found. Made one.",
+        'description_extended': "",
+        'year': '2026',
+        'team': [],
+        'icons': ['python','github'],
+        'category': 'code',
+        'width': 1,
+        'height': 1,
+    },
+
+    {
         'title':'ComputingTeachers.uk',
         'link': 'https://www.ComputingTeachers.uk',
         'image': 'projects/computingteachers.logo.svg',
-        'description': "A blog site for a community of teachers to share ideas and resources for teaching Computing. A publication channel for many of my computing education ideas",
+        'description': "WIP CONCEPT - A blog site for a community of teachers to share ideas and resources for teaching Computing. A publication channel for many of my computing education ideas",
         'description_extended': "",
         'year': '2026',
         'team': [],
@@ -209,13 +237,27 @@ build_masonry(
         'title':'Global (Media Group)',
         'link': 'http://www.global.com/',
         'image': 'employers/global-logo.png',
-        'description': "<p>Working on backed services for in-car radio (CarPlayAndroidAuto)</p>",
+        'description': "<p>Working on backed services</p><p>in-car radio (CarPlay/AndroidAuto).</p><p>JWT Tokens for protected streams</p>",
         'year': '2024-now',
         'icons': ['python','docker'],
         'category': 'employer',
         'width': 1,
         'height': 2,
         'extra_class': 'float',
+    },
+
+    {
+        'title':'Frameworks and Languages Module',
+        'link': 'https://github.com/calaldees/frameworks_and_languages_module',
+        'image': '',
+        'description': "10 week course for learning the foundations of SPA+REST",
+        'description_extended': "",
+        'year': '2024',
+        'team': [],
+        'icons': [],
+        'category': 'other',
+        'width': 1,
+        'height': 1,
     },
 
     {
